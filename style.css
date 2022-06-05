@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    background-color: blue;
+    color: aliceblue;
+    padding: 1%;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+#citySearchBlock {
+    width: 15%;
+    padding: 1%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#citySearch {
+    margin-bottom: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+#weatherBlock {
+
+}
+
+#cityInfo {
+    padding: 2%;
+    margin: 5%;
+    border: 1px solid black;
+    width: 75%;
+    font-family: sans-serif;
+}
+
+#userCity {
+    font-size: 20px;
+    margin: 5px;
+}
+
+#cityInfo p {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#forcast {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 2%;
+    margin: 5%;
+}
+
+#forcast-blocks {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    margin: 5%;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.dayBlock {
+    background-color: blue;
+    margin-right: 10%;
+    padding: 5%;
+    border-radius: 5%;
+}
