@@ -10,13 +10,17 @@
         <div id="citySearchBlock">
             <h2 id="citySearch">Search for a City:</h2>
             <form>
-                <input type="text">
-                <input type="submit" value="submit">
+                <input type="text" id="userSearch">
+               <!-- <input type="submit" value="submit"> -->
+               <button id="btn">Search</button>
             </form>
         </div>
         <div id="weatherBlock">
             <div id="cityInfo">
-                <h2 id="userCity">Seattle</h2>
+                <div id="mainTitle">
+                    <h2 id="userCity"></h2>
+                    <img id="icon" />
+                </div>
                 <p id="temp">Temp:</p>
                 <p id="wind">Wind:</p>
                 <p id="humid">Humidity:</p>
@@ -26,37 +30,45 @@
                 <h3>5-Day Forcast:</h3>
                 <div id="forcast-blocks">
                     <div id="dayOne" class="dayBlock">
-                        <h4>date</h4>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                        <h4 id="dayOneDate"></h4>
+                        <img id="dayOneIcon"/>
+                        <p id="dayOneTemp">Temp:</p>
+                        <p id="dayOneWind">Wind:</p>
+                        <p id="dayOneHumid">Humidity:</p>
                     </div>
                     <div id="dayTwo" class="dayBlock">
-                        <h4>date</h4>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                        <h4 id="dayTwoDate"></h4>
+                        <img id="dayTwoIcon"/>
+                        <p id="dayTwoTemp">Temp:</p>
+                        <p id="dayTwoWind">Wind:</p>
+                        <p id="dayTwoHumid">Humidity:</p>
                     </div>
                     <div id="dayThree" class="dayBlock">
-                        <h4>date</h4>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                        <h4 id="dayThreeDate"></h4>
+                        <img id="dayThreeIcon"/>
+                        <p id="dayThreeTemp">Temp:</p>
+                        <p id="dayThreeWind">Wind:</p>
+                        <p id="dayThreeHumid">Humidity:</p>
                     </div>
                     <div id="dayFour" class="dayBlock">
-                        <h4>date</h4>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                        <h4 id="dayFourDate"></h4>
+                        <img id="dayFourIcon"/>
+                        <p id="dayFourTemp">Temp:</p>
+                        <p id="dayFourWind">Wind:</p>
+                        <p id="dayFourHumid">Humidity:</p>
                     </div>
                     <div id="dayFive" class="dayBlock">
-                        <h4>date</h4>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                        <h4 id="dayFiveDate"></h4>
+                        <img id="dayFiveIcon"/>
+                        <p id="dayFiveTemp">Temp:</p>
+                        <p id="dayFiveWind">Wind:</p>
+                        <p id="dayFiveHumid">Humidity:</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>   
 </body>
